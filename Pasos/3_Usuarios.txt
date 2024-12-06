@@ -1,9 +1,9 @@
 
 
 insert into usuario(id_usuario,nombre,clave,estado,foto) values 
-(1,'Allow','$2a$10$GFnfL/wdPAerzCmLTYK1deOvsO9PC0kYIP5dF/9nesodF04qeGGCG',1,'https://i.pinimg.com/236x/ee/62/75/ee62751e6dc8eb8c6116add9292cbe9d.jpg'),
-(2,'Roberto','$2a$10$GFnfL/wdPAerzCmLTYK1deOvsO9PC0kYIP5dF/9nesodF04qeGGCG',1,'https://i.pinimg.com/474x/15/25/bf/1525bf9fe03ea06303dffd292b2dd36d.jpg'),
-(3,'Tarro','$2a$10$GFnfL/wdPAerzCmLTYK1deOvsO9PC0kYIP5dF/9nesodF04qeGGCG',1,'https://i.pinimg.com/236x/05/77/6e/05776e2211915dbc81e917751aa068a7.jpg');
+(1,'Allow','$2a$10$GFnfL/wdPAerzCmLTYK1deOvsO9PC0kYIP5dF/9nesodF04qeGGCG',1,'https://i.pinimg.com/236x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg'),
+(2,'Roberto','$2a$10$GFnfL/wdPAerzCmLTYK1deOvsO9PC0kYIP5dF/9nesodF04qeGGCG',1,'https://i.pinimg.com/236x/59/8e/ab/598eab8834f2b15fba36e3b00bb2846d.jpg'),
+(3,'Tarro','$2a$10$GFnfL/wdPAerzCmLTYK1deOvsO9PC0kYIP5dF/9nesodF04qeGGCG',1,'https://i.pinimg.com/236x/c4/34/d8/c434d8c366517ca20425bdc9ad8a32de.jpg');
 
 select * from usuario;
 
