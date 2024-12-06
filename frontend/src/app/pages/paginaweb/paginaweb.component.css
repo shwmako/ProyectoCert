@@ -1,0 +1,175 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Barra de navegación */
+header {
+  background-color: #3f51b5;
+  padding: 10px 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container .logo a {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header nav a {
+  margin-right: 20px;
+  font-size: 18px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+  background-color: #303f9f;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.login .login-btn {
+  background-color: #ff9800;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login .login-btn:hover {
+  background-color: #f57c00;
+}
+
+/* Banner */
+.banner {
+  background-color: #3f51b5;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+/* Sección de Temas */
+.temas {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.tema {
+  width: 30%;
+  text-align: center;
+}
+
+.tema img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.tema h2 {
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+.tema p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Razones y Opiniones */
+.razones {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.razones h2 {
+  font-size: 2em;
+}
+
+.opinion {
+  margin-top: 20px;
+}
+
+.opinion h3 {
+  font-size: 1.5em;
+}
+
+.opinion p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* Tipos de Pago */
+.tipos-pago {
+  background-color: #3f51b5;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.tipos-pago h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.pago {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.pago img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.pago p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #303f9f;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .contacto, footer .derechos {
+  width: 45%;
+}
+
+footer .contacto h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+footer .derechos p {
+  text-align: center;
+  font-size: 1.2em;
+}

@@ -1,0 +1,53 @@
+INSERT INTO Cliente (nombre, apellido, correo, direccion, dni, telefono) 
+VALUES 
+('Juan', 'Pérez', 'juan.perez@example.com', 'Av. Lima 123', '12345678', '987654321'),
+('María', 'González', 'maria.gonzalez@example.com', 'Calle Ficticia 456', '87654321', '912345678'),
+('Carlos', 'Ramírez', 'carlos.ramirez@example.com', 'Av. San Martín 789', '23456789', '963258741'),
+('Ana', 'Lopez', 'ana.lopez@example.com', 'Calle Real 101', '34567890', '987654322'),
+('José', 'Martínez', 'jose.martinez@example.com', 'Plaza Mayor 202', '45678901', '921347653'),
+('Laura', 'Sánchez', 'laura.sanchez@example.com', 'Calle del Sol 303', '56789012', '934567890'),
+('Pedro', 'Díaz', 'pedro.diaz@example.com', 'Calle de la Luna 404', '67890123', '945678901'),
+('Lucía', 'Gómez', 'lucia.gomez@example.com', 'Calle España 505', '78901234', '956789012'),
+('Miguel', 'Hernández', 'miguel.hernandez@example.com', 'Av. Norte 606', '89012345', '967890123'),
+('Isabel', 'Rodríguez', 'isabel.rodriguez@example.com', 'Calle Bella 707', '90123456', '978901234'),
+('Javier', 'Fernández', 'javier.fernandez@example.com', 'Calle 1 808', '01234567', '989012345'),
+('Beatriz', 'Serrano', 'beatriz.serrano@example.com', 'Calle Verde 909', '12345678', '910123456'),
+('Felipe', 'Mora', 'felipe.mora@example.com', 'Av. Las Palmas 1010', '23456789', '921234567'),
+('Marta', 'Vázquez', 'marta.vazquez@example.com', 'Calle Nueva 1111', '34567890', '932345678'),
+('Raúl', 'Jiménez', 'raul.jimenez@example.com', 'Calle Vieja 1212', '45678901', '943456789');
+
+
+INSERT INTO Solicitud (apellido, correo, descripcion, estado, nombre, telefono, tipo_servicio) 
+VALUES 
+('Pérez', 'juan.perez@example.com', 'Solicitud de mantenimiento de equipo', 'Pendiente', 'Juan', '987654321', 'Mantenimiento'),
+('González', 'maria.gonzalez@example.com', 'Asesoría en software para pymes', 'Pendiente', 'María', '912345678', 'Asesoría'),
+('Ramírez', 'carlos.ramirez@example.com', 'Instalación de red de internet', 'Pendiente', 'Carlos', '963258741', 'Instalación de Red'),
+('Lopez', 'ana.lopez@example.com', 'Soporte técnico para computadora portátil', 'Pendiente', 'Ana', '987654322', 'Soporte Técnico'),
+('Martínez', 'jose.martinez@example.com', 'Desarrollo de página web corporativa', 'Pendiente', 'José', '921347653', 'Desarrollo Web'),
+('Sánchez', 'laura.sanchez@example.com', 'Consultoría en infraestructura tecnológica', 'Pendiente', 'Laura', '934567890', 'Consultoría'),
+('Díaz', 'pedro.diaz@example.com', 'Implementación de servidor dedicado', 'Pendiente', 'Pedro', '945678901', 'Implementación de Servidor'),
+('Gómez', 'lucia.gomez@example.com', 'Auditoría de seguridad informática', 'Pendiente', 'Lucía', '956789012', 'Seguridad Informática'),
+('Hernández', 'miguel.hernandez@example.com', 'Desarrollo de sistema ERP', 'Pendiente', 'Miguel', '967890123', 'Desarrollo ERP'),
+('Rodríguez', 'isabel.rodriguez@example.com', 'Consultoría en marketing digital', 'Pendiente', 'Isabel', '978901234', 'Marketing Digital'),
+('Fernández', 'javier.fernandez@example.com', 'Mantenimiento y reparación de equipos de oficina', 'Pendiente', 'Javier', '989012345', 'Mantenimiento de Equipos'),
+('Serrano', 'beatriz.serrano@example.com', 'Diseño gráfico para redes sociales', 'Pendiente', 'Beatriz', '910123456', 'Diseño Gráfico'),
+('Mora', 'felipe.mora@example.com', 'Desarrollo de aplicación móvil para ventas', 'Pendiente', 'Felipe', '921234567', 'Desarrollo Móvil'),
+('Vázquez', 'marta.vazquez@example.com', 'Soporte técnico de software empresarial', 'Pendiente', 'Marta', '932345678', 'Soporte Empresarial'),
+('Jiménez', 'raul.jimenez@example.com', 'Consultoría en estrategias de crecimiento empresarial', 'Pendiente', 'Raúl', '943456789', 'Consultoría Estratégica');
+
+
+INSERT INTO Tecnico (nombre, apellido, foto, dni, direccion, correo) 
+VALUES 
+('Luis', 'González', 'https://www.example.com/fotos/luis.jpg', '12345678', 'Av. Las Flores 123, Lima', 'luis.gonzalez@example.com'),
+('Carlos', 'Martínez', 'https://www.example.com/fotos/carlos.jpg', '23456789', 'Calle San Martín 456, Lima', 'carlos.martinez@example.com'),
+('Ana', 'Pérez', 'https://www.example.com/fotos/ana.jpg', '34567890', 'Jr. El Sol 789, Lima', 'ana.perez@example.com'),
+('Roberto', 'Sánchez', 'https://www.example.com/fotos/roberto.jpg', '45678901', 'Calle Los Álamos 321, Lima', 'roberto.sanchez@example.com'),
+('Marta', 'Gómez', 'https://www.example.com/fotos/marta.jpg', '56789012', 'Av. Grau 654, Lima', 'marta.gomez@example.com');
+
+
+INSERT INTO tipo_servicio (nombre, descripcion) 
+VALUES 
+('Mantenimiento', 'Servicios de mantenimiento preventivo y correctivo de equipos y sistemas.'),
+('Instalación', 'Instalación de equipos electrónicos y sistemas tecnológicos en oficinas o viviendas.'),
+('Soporte Técnico', 'Asistencia técnica para resolver problemas de software o hardware en equipos.'),
+('Consultoría', 'Servicios de asesoría técnica para mejorar procesos tecnológicos en empresas.');
